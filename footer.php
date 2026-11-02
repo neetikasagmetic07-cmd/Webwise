@@ -66,15 +66,15 @@ $payment_logos = is_array( $payment_logos ) ? array_values( array_filter( $payme
 	<?php endif; ?>
 
 	<div class="footer-main content-shell">
-		<div class="footer-brand">
-			<?php if ( $footer_logo ) : ?>
-				<?php echo webwise_render_image( $footer_logo, 'medium', 'footer-logo' ); ?>
-			<?php endif; ?>
-			<?php if ( $footer_desc ) : ?>
-				<p><?php echo nl2br( esc_html( $footer_desc ) ); ?></p>
-			<?php endif; ?>
+		<!-- <div class="footer-brand">
+			<?php// if ( $footer_logo ) : ?>
+				<?php //echo webwise_render_image( $footer_logo, 'medium', 'footer-logo' ); ?>
+			<?php //endif; ?>
+			<?php //if ( $footer_desc ) : ?>
+				<p><?php //echo nl2br( esc_html( $footer_desc ) ); ?></p>
+			<?php //endif; ?>
 		</div>
-
+ -->
 		<?php
 		$menu_columns = array(
 			array(
