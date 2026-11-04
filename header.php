@@ -14,7 +14,7 @@ $site_label    = $logo_text ? $logo_text : get_bloginfo( 'name' );
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<header class="site-header">
+<header class="site-header sdsdf">
 	<div class="site-header-inner">
 		<nav class="primary-navigation" aria-label="<?php echo esc_attr( wp_get_nav_menu_name( 'header-menu-1' ) ); ?>">
 			<?php
