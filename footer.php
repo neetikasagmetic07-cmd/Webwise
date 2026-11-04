@@ -159,6 +159,6 @@ $payment_logos = is_array( $payment_logos ) ? array_values( array_filter( $payme
 	<?php endif; ?>
 </footer>
 <?php wp_footer(); ?>
+
 </body>
 </html>
-

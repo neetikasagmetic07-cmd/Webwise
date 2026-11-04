@@ -725,4 +725,6 @@ function webwise_product_category_per_page( $limit, $query = null ) {
 
 	return $limit;
 }
+
 add_filter( 'loop_shop_per_page', 'webwise_product_category_per_page', 20, 2 );
+
