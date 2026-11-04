@@ -11,7 +11,6 @@ $site_label    = $logo_text ? $logo_text : get_bloginfo( 'name' );
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<?php wp_head(); ?>
 </head>
-
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <header class="site-header sdsdf">
@@ -29,7 +28,6 @@ $site_label    = $logo_text ? $logo_text : get_bloginfo( 'name' );
 			);
 			?>
 		</nav>
-
 		<a class="site-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" aria-label="<?php echo esc_attr( $site_label ); ?>">
 			<?php if ( $logo_id ) : ?>
 				<?php echo webwise_render_image( $logo_id, 'medium', 'site-brand-image' ); ?>
@@ -39,7 +37,6 @@ $site_label    = $logo_text ? $logo_text : get_bloginfo( 'name' );
 				<?php echo webwise_render_image( get_theme_mod( 'custom_logo' ), 'medium', 'site-brand-image' ); ?>
 			<?php endif; ?>
 		</a>
-
 		<nav class="header-utilities" aria-label="<?php echo esc_attr( wp_get_nav_menu_name( 'header-menu-2' ) ); ?>">
 			<?php
 			wp_nav_menu(
